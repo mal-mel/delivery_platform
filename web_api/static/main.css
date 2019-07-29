@@ -1,0 +1,33 @@
+body, html {
+	font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+	color: #7F8C9A;
+	background: #EEEEEE;
+	margin: 0;
+}
+
+nav {
+	width: all;
+	height: 40px;
+	background-color: #89e863;
+}
+
+.navLabel {
+	width: 500px;
+	position: absolute;
+	height: 60px;
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 10px;
+	color: #EEEEEE;
+	font-size: 20px;
+}
+
+.navText {
+	float: right;
+	height: 60px;
+	margin: 0;
+	padding-top: 15px;
+	padding-right: 10px;
+	color: #EEEEEE;
+	font-size: 20px;
+}

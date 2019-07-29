@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+    <!--<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Заказы</title>
+
+    <style type="text/css">
+    	body, html {
+			font-family: "Open sans", "Segoe UI", "Segoe WP", Helvetica, Arial, sans-serif;
+			color: #7F8C9A;
+			background: #EEEEEE;
+			margin: 0;
+		}
+
+		nav {
+			width: all;
+			height: 40px;
+			background-color: #89e863;
+			-webkit-box-shadow: 0px 7px 9px 0px rgba(50, 50, 51, 0.68);
+			-moz-box-shadow:    0px 7px 9px 0px rgba(50, 50, 51, 0.68);
+			box-shadow:         0px 7px 9px 0px rgba(50, 50, 51, 0.68);
+		}
+
+		.navLabel {
+			width: 500px;
+			position: absolute;
+			height: 60px;
+			margin: 0;
+			padding-top: 15px;
+			padding-left: 10px;
+			color: #EEEEEE;
+			font-size: 20px;
+		}
+
+		.navText {
+			float: right;
+			height: 60px;
+			margin: 0;
+			padding-top: 15px;
+			padding-right: 10px;
+			color: #EEEEEE;
+			font-size: 20px;
+		}
+    </style>
+</head>
+<body>
+	<nav style="width: all; height: 60px;">
+		<div class="navLabel">
+			<label>SHOP_NAME</label>
+		</div>
+		<div class="navText">
+			<span>Панель управления заказами</span>
+		</div>
+	</nav>
+
+	<div class="container-fluid" style="margin-top: 30px;">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+			    	<th scope="col">Номер заказа</th>
+			    	<th scope="col">Корзина</th>
+			    	<th scope="col">Стоимость</th>
+			    	<th scope="col">Адрес</th>
+			    	<th scope="col">Telegram</th>
+			    	<th scope="col">Дата</th>
+			    	<th scope="col">Статус</th>
+			    </tr>
+			</thead>
+			<tbody>
+			    <tr>
+			    	<th scope="row">1</th>
+			    	<td>Картошка, Картошка</td>
+			    	<td>2468</td>
+			    	<td>Москва Проспект Сахарова 8.1 корпус 3 25</td>
+			    	<td>user_id</td>
+			    	<td>2019-07-22 16:00:36.226848</td>
+			    	<td>
+			    		<select id="inputState" class="form-control">
+        					<option selected="">В обработке</option>
+        					<option>Принят</option>
+        					<option>Готовится</option>
+        					<option>Передан курьеру</option>
+        					<option>Доставлен</option>
+      					</select>
+      				</td>
+			    </tr>
+			  </tbody>
+		</table>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
