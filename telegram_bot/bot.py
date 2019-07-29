@@ -132,12 +132,6 @@ def start_command(message):
         connection.commit()
 
 
-@bot.message_handler(commands=['jopa'])
-def jopa_handler(message):
-    bot.send_photo(message.chat.id, open('photos/jopa.jpg', 'rb'))
-    bot.send_message(message.chat.id, 'Привет я жыпа!)')
-
-
 @bot.message_handler(commands=['help'])
 def help_command(message):
     clear_all_state(message)
