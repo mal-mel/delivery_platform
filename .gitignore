@@ -221,7 +221,7 @@ pyvenv.cfg
 pip-selfcheck.json
 
 db.py
-.telegram_bot/photos
+telegram_bot/photos
 config.py
 
 # End of https://www.gitignore.io/api/venv,python,pycharm
