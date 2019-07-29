@@ -10,7 +10,7 @@
 
 Попробовать пока что не очень большой функционал можно через тестового бота:
 
-[@PlatformDelTestBot](www.t-do.ru/PlatformDelTestBot)
+@PlatformDelTestBot
 
 
 **Запуск:**
